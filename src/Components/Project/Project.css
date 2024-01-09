@@ -1,0 +1,302 @@
+.p{
+    width: 28%;
+    height: 46vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 30px 0px;
+    overflow: hidden;
+}
+
+.p-browser{
+    height: 28px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+}
+
+.p-circle{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: black;
+}
+
+.p-img{
+    width: 100%;
+    height: 70%;
+}
+
+.i-visits{
+    margin-top: -1.6rem;
+    display: flex;
+    margin-left: 0px;
+    border: 0px solid #959b9c;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   height: 157px;
+   background: #f2f1f1;
+   
+   
+ }
+
+ .visit-1{
+    /* background: #efe7e7; */
+    display: flex;
+    height: 80px;
+    width: 33.3%;
+    /* border-radius: 20px 0px 0px 20px; */
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);  
+    scale: 0.7;
+    margin-top: -35px;
+    border-left: 6px solid #959b9c;
+    border-right: 6px solid #959b9c;
+    border-radius: 50%;
+   
+    
+  }
+ 
+  .visit-2{
+    
+    display: block;
+    height: 80px;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 20px solid #959b9c;
+    border-right: 2px solid #959b9c; */
+    scale: 0.7;
+    margin-top: -40px;
+    border-left: 6px solid #959b9c;
+    border-right: 6px solid #959b9c;
+    border-radius: 50%;
+  }
+ 
+  .visit-3{
+    
+    display: block;
+    height: 80px;
+    display: flex;
+    width: 33.3%; 
+    justify-content: center;
+    align-items: center;
+    scale: 0.7;
+    margin-top: -40px; 
+    border-left: 6px solid #959b9c;
+    border-right: 6px solid #959b9c;
+    border-radius: 50%; 
+  }
+
+  .visit-1:hover{
+    background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+    display: flex;
+    height: 80px;
+    width: 33.3%;
+    /* border-radius: 20px 0px 0px 20px; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+ 
+  .visit-2:hover{
+    background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+    display: block;
+    height: 80px;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 6px solid #959b9c;
+    border-right: 6px solid #959b9c;
+    border-radius: 50%;
+  }
+ 
+  .visit-3:hover{
+    background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+    display: block;
+    height: 80px;
+    display: flex;
+    width: 33.3%; 
+    justify-content: center;
+    align-items: center;
+  }
+ 
+ 
+
+
+
+
+
+
+@media screen  and (max-width: 480px){
+    .p{
+        
+      width: auto;
+      height: 140px;
+      margin: 100px 100px;
+      padding: 0px;
+      transform: scale(2.1);
+      overflow: hidden;
+      border-radius: 10px 10px 20px 0px;
+    }
+
+    .p-browser{
+        height: 12px;
+        background-color: rgb(243, 242, 242);
+        display: flex;
+        align-items: center;
+    }
+
+
+    
+
+    .i-visits{
+        margin-top: 9.9rem;
+        display: flex;
+        margin-left: 0px;
+       
+        
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+       
+       background: #f2f1f1;
+       
+       
+       
+     }
+
+     .p-img{
+        width: 100%;
+        height: 70%;
+    }
+    
+
+     .i-visits{
+        margin-top: 0rem;
+        display: flex;
+        margin-left: 0px;
+        /* border: 0px solid #959b9c; */
+        
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+       height: 25px;
+       background: #f2f1f1;
+       transform: scale(1);
+       
+       
+     }
+
+     .visit-1{
+        /* background: #efe7e7; */
+        display: flex;
+        height: 80px;
+        width: 33.3%;
+        /* border-radius: 20px 0px 0px 20px; */
+        justify-content: center;
+        align-items: center;
+        transform: scale(1);  
+        scale: 0.2;
+        margin-top: 0px;
+        padding: 0px;
+        border-left: 0px solid #959b9c;
+        border-right: 0px solid #959b9c; 
+       
+       
+        
+      }
+
+      .visit-1:hover{
+        background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+        box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+        display: flex;
+        height: 80px;
+        width: 33.3%;
+        /* border-radius: 20px 0px 0px 20px; */
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+
+      .visit-2{
+    
+        display: block;
+        height: 80px;
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-left: 20px solid #959b9c;
+        border-right: 2px solid #959b9c; */
+        scale: 0.7;
+        margin-top: 0px;
+        border-left: 0px solid #959b9c;
+        border-right: 0px solid #959b9c;
+        border-radius: 0%;
+        scale: 0.2;
+      }
+     
+
+      .visit-2:hover{
+        background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+        box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+        display: block;
+        height: 80px;
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 0px solid #959b9c;
+        border-right: 0px solid #959b9c;
+        border-radius: 0%;
+        cursor: pointer;
+      }
+
+      .visit-3{
+    
+        display: block;
+        height: 80px;
+        display: flex;
+        width: 33.3%; 
+        justify-content: center;
+        align-items: center;
+        scale: 0.2;
+        margin-top: 0px; 
+        border-left: 0px solid #959b9c;
+        border-right: 0px solid #959b9c;
+        border-radius: 0%; 
+      }
+    
+      .visit-3:hover{
+        background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+        box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+        display: block;
+        height: 80px;
+        display: flex;
+        width: 33.3%; 
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-left: 0px solid #959b9c;
+        border-right: 0px solid #959b9c;
+        border-radius: 0%;
+      }
+     
+
+     
+    
+
+   
+    
+  }
+    

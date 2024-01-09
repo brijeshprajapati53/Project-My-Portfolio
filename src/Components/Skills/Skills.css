@@ -1,0 +1,212 @@
+
+.container{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 8000px;
+
+   
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section{
+    padding: 6rem 0 2rem;
+
+    padding-top: 20px;
+
+    background: #f2f1f1;
+    border-radius: 20px;
+
+    
+   
+   
+    
+}
+
+
+
+
+
+
+.section-title{
+   /* color: hsl(0,0%,20%); */
+   color: var(--orange);
+    font-size: 2.25rem;
+
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+
+.section-subtitle{
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+    border-radius: 34px;
+  border: none;
+  color: white;
+font-size: 16px;
+padding: 11px  26px 11px 26px;
+background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+
+}
+
+
+.section-title,.section-subtitle{
+    text-align: center;
+}
+
+
+
+ /* css for skills section */
+
+.section-title{
+    /* background-color: aqua; */
+    font-size: 400;
+    padding-top: 20px;
+    
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Salsa', cursive;
+}
+
+.skills-container{
+    grid-template-columns: repeat(2,400px);
+    column-gap: 3rem;
+    justify-content: center;
+    /* background-color: red; */
+    /* display: flex; */
+}
+
+
+
+.skills-content{
+     background-color: white;
+     border: 5px solid rgba(0, 0, 0, 0.1);
+     padding: 0rem 3rem;
+     border-radius: 1.25rem;
+
+     background: rgba(255, 255, 255, 0.07);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.4);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.07);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 8px solid rgba(255, 255, 255, 0.4);
+padding: 0;
+
+}
+
+
+.skills-title{
+    font-size: 1rem;
+    /* font-weight: 00; */
+    text-align: center;
+    color: black;
+    margin-bottom: 1.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 1.25rem;
+
+    border-radius: 34px;
+  border: none;
+  color: white;
+font-size: 18px;
+padding: 11px  26px 11px 26px;
+background: linear-gradient(180deg,#fdc50f 26.71%, #fb982f 99.36%);
+width: 60%;
+margin-left: 12%;
+
+}
+
+
+.detail{
+   padding: 0px;
+   
+     font-size: 1rem;
+    
+     padding: 10px;
+     
+     text-align: center;
+     font-family: 'Dancing Script', cursive;
+font-family: 'Salsa', cursive;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: center;
+    column-gap: 9.5rem;
+    padding-top: 20px;
+}
+
+.skills-group{
+    display: grid;
+   align-items: flex-start;
+   grid-template-columns: repeat(2,150px);
+    row-gap: 0px;
+    height: 260px;
+
+ 
+}
+
+.skills-data{
+    display: flex;
+    height: 70px;
+    column-gap: 0.5rem;
+}
+
+.skills .bxs-badge-check{
+    font-size: 1rem;
+    /* //color: hsl(0,0%,20%); */
+    color: black;
+
+    height: 33px;
+}
+
+.skills-name{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 6px;
+
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+
+.skills-level{
+    font-size: 0.625rem;
+}
+
+
+
+@media screen  and (max-width: 480px){
+    .section{
+      flex-direction: column;
+      margin-top: 23rem;
+    }
+
+    .skills-container{
+        display: flex;
+              flex-direction: column;
+              /* margin-left: 0.3rem;
+              margin-right: 0.3rem;*/
+              padding: 0rem 0.4rem  0rem 0.4rem; 
+              width: auto;
+              
+
+    }
+    
+  }
+    
